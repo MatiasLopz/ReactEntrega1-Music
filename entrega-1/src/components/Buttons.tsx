@@ -1,0 +1,7 @@
+function NavButtons (){
+    
+}
+
+function CommonButtons(){
+    
+}

@@ -14,7 +14,7 @@ const ALBUMS = [
     },
 
     {
-        title:'Drunk',
+        title:'Drunk ',
         artist:'Thundercat',
         followers:'50M',
         cover:'https://t2.genius.com/unsafe/853x0/https%3A%2F%2Fimages.genius.com%2F466b18a3762737c2a3454406b02f22d4.1000x1000x1.jpg',

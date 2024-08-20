@@ -3,15 +3,10 @@ import { ReactNode } from "react";
 type PropSec = {
     secSupTitle: string;
     sectionTitle: string;
-    nav: ReactNode;
     children: ReactNode;
 };
 
-function Sections ({secSupTitle='SuperiorText', sectionTitle='TITULO', nav='Acá irían los botones', children='acá va el hijo'}:PropSec){
-    const marpad = {
-        margin : 0,
-        padding : 0,
-        }
+function Sections ({secSupTitle='SuperiorText', sectionTitle='TITULO', children='acá va el hijo'}:PropSec){
 
         return(
         <div className="section container">
@@ -25,7 +20,6 @@ function Sections ({secSupTitle='SuperiorText', sectionTitle='TITULO', nav='Acá
                         <p >{secSupTitle}</p>
                         <h2 >{sectionTitle}</h2>
                     </div>
-                    <div className="section-nav col-3 float-end">{nav}</div>
                 </div>
 
             </div>

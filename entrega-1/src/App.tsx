@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import PlaybackBar from "./components/PlaybackBar";
 import  CrearPlaylist from "./components/Playlist";
 import SideBarYM from "./components/SideBar";
+import PodcastPlayer from "./components/PodcastPlayer";
 
 
 type itemPlayList = {
@@ -34,8 +35,7 @@ function App() {
           </div>
         </div>
       </div>
-
-      <PlaybackBar/>
+          <PodcastPlayer></PodcastPlayer>
     </>
     
 
